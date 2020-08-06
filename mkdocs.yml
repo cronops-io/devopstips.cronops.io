@@ -1,0 +1,130 @@
+# ref link: https://alinex.gitlab.io/env/mkdocs/
+#===================================================================================#
+# Site Information
+#===================================================================================#
+site_name: CronOps DevOpsTips
+repo_name: "cronops-io/devopstips.cronops.io"
+repo_url: https://github.com/cronops-io/devopstips.cronops.io
+site_url: https://devopstips.cronops.io/
+site_description: CronOps DevOpsTips
+site_author: CronOps
+copyright: Copyright &copy; 2020 <a href="https://www.cronops.io">CronOps</a>
+
+#===================================================================================#
+# Mkdocs Theme (Material Mkdocs) + Extras
+#===================================================================================#
+theme:
+  name: material
+  custom_dir: material
+  language: en
+  icon: # https://iconify.design/icon-sets/mdi/
+    #logo: material/account-multiple-check
+    #logo: material/book-open-variant
+    #logo: material/library
+    #logo: material/airplane-takeoff
+    #logo: material/application-import
+    #logo: material/beaker-check
+    #logo: material/beaker-check-outline
+    #logo: material/book-open-page-variant
+    #logo: material/coffee-to-go
+    #logo: material/coffee-to-go-outline
+    #logo: material/coffee
+    #logo: material/controller-classic
+    #logo: material/controller-classic-outline
+    #logo: material/cube-scan
+    #logo: material/folder-home
+    #logo: material/jsfiddle
+    logo: material/package-variant
+
+  favicon: assets/images/favicons/favicon.ico
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - tabs
+    - instant
+  palette:
+#    primary: "black" # currently setuped from /docs/assets/stylesheets
+    accent: "teal"
+  include_sidebar: true
+
+extra:
+  social:
+    - icon: material/home
+      link: 'https://www.cronops.io'
+    - icon: material/github
+      link: 'https://github.com/cronops-io'
+    - icon: material/linkedin
+      link: 'https://www.linkedin.com/company/cronops'
+    - icon: fontawesome/brands/medium
+      link: 'https://medium.com/cronops'
+
+#===================================================================================#
+# Mkdocs Markdown Extentions, Plugins & extras
+#===================================================================================#
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - meta
+  - toc:
+      # insert a blank space before the character
+      permalink: " ¶"
+
+plugins:
+  - search
+  - awesome-pages
+
+extra_css:
+    - assets/stylesheets/extra.css
+
+# Google Analytics (https://squidfunk.github.io/mkdocs-material/getting-started/#google-analytics)
+#
+google_analytics:
+  - 'UA-174680750-2'
+  - 'auto'
+
+#===================================================================================#
+# Mkdocs Navigation Tree
+#===================================================================================#
+nav:
+  - Home:
+    - Home: "index.md"
+    - Welcome: "welcome.md"
+    - Contributing: "contributing.md"
+    - License: "license.md"
+
+  - Culture:
+    - Overview: "culture/index.md"
+    - Read More: "culture/read-more.md"
+
+  - Product and Process:
+    - Overview: "product-and-process/index.md"
+    - Read More: "product-and-process/read-more.md"
+
+  - Lean Management:
+    - Overview: "lean-management/index.md"
+    - Read More: "lean-management/read-more.md"
+
+  - Architecture:
+    - Overview: "architecture/index.md"
+    - Read More: "architecture/read-more.md"
+
+  - Development & CI/CD:
+    - Overview: "continuous-delivery/index.md"
+    - Read More: "continuous-delivery/read-more.md"
+
+  - Monitoring:
+    - Overview: "monitoring/index.md"
+    - Read More: "monitoring/read-more.md"
+
+  - Security:
+    - Overview: "security/index.md"
+    - Read More: "security/read-more.md"
