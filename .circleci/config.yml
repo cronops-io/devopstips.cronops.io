@@ -71,7 +71,7 @@ workflows:
       - release-version-with-changelog:
           context: cronops-org-global-context
           requires:
-            - build-deploy-gh-pages
+            - build-and-deploy
           filters:
             branches:
              only: # only branches matching the below regex filters will run
