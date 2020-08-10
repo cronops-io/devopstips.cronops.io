@@ -33,7 +33,7 @@ communication, transparency, and collaboration across all IT aforementioned team
     
 ## Getting Started
 
-* [x] [DevOpsTips **Culture** Category](culture/index.md) 
+* [x] [DevOpsTips **Culture** Category](./index.md) 
 
 
 ## Read More
