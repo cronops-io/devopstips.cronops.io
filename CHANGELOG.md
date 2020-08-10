@@ -7,6 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.2"></a>
+## [v0.0.2] - 2020-08-10
+
+- Merge branch 'master' of github.com:cronops-io/devopstips.cronops.io
+- CRONOPS-16 | DevOpsTips Culture 1st tip added
+
+
 <a name="v0.0.1"></a>
 ## v0.0.1 - 2020-08-06
 
@@ -19,4 +26,5 @@ All notable changes to this project will be documented in this file.
 - CRONOPS-8 | initial devopstips.cronops.io release
 
 
-[Unreleased]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.1...HEAD
+[Unreleased]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.2...HEAD
+[v0.0.2]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.1...v0.0.2
