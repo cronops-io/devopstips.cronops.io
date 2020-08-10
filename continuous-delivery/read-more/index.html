@@ -57,8 +57,10 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="" data-md-color-accent="teal">
   
+    
+      <script>matchMedia("(prefers-color-scheme: dark)").matches&&document.body.setAttribute("data-md-color-scheme","slate")</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -245,7 +247,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../monitoring/" class="md-tabs__link">
+        <a href="../../monitoring-and-sre/" class="md-tabs__link">
           Monitoring
         </a>
       
@@ -415,6 +417,18 @@
   <li class="md-nav__item">
     <a href="../../culture/" title="Overview" class="md-nav__link">
       Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../culture/tip-1-generative-culture/" title="Tip 1 | Generative Culture" class="md-nav__link">
+      Tip 1 | Generative Culture
     </a>
   </li>
 
@@ -694,7 +708,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../monitoring/" title="Overview" class="md-nav__link">
+    <a href="../../monitoring-and-sre/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -706,7 +720,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../monitoring/read-more/" title="Read More" class="md-nav__link">
+    <a href="../../monitoring-and-sre/read-more/" title="Read More" class="md-nav__link">
       Read More
     </a>
   </li>
@@ -841,7 +855,7 @@
           </a>
         
         
-          <a href="../../monitoring/" title="Overview" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../monitoring-and-sre/" title="Overview" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">

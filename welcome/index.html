@@ -71,8 +71,10 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="" data-md-color-accent="teal">
   
+    
+      <script>matchMedia("(prefers-color-scheme: dark)").matches&&document.body.setAttribute("data-md-color-scheme","slate")</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -271,7 +273,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../monitoring/" class="md-tabs__link">
+        <a href="../monitoring-and-sre/" class="md-tabs__link">
           Monitoring
         </a>
       
@@ -416,6 +418,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#color-settings" class="md-nav__link">
+    Color Settings
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -485,6 +494,18 @@
   <li class="md-nav__item">
     <a href="../culture/" title="Overview" class="md-nav__link">
       Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../culture/tip-1-generative-culture/" title="Tip 1 | Generative Culture" class="md-nav__link">
+      Tip 1 | Generative Culture
     </a>
   </li>
 
@@ -753,7 +774,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../monitoring/" title="Overview" class="md-nav__link">
+    <a href="../monitoring-and-sre/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -765,7 +786,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../monitoring/read-more/" title="Read More" class="md-nav__link">
+    <a href="../monitoring-and-sre/read-more/" title="Read More" class="md-nav__link">
       Read More
     </a>
   </li>
@@ -862,6 +883,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#color-settings" class="md-nav__link">
+    Color Settings
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -897,14 +925,34 @@ reliability, stability, scalability and security at ever lower cost and effort.<
 <p class="admonition-title">DevOpsTips Categories</p>
 <p>Discover our tips classified by DevOps Improvement capabilities categories directly associated to software delivery
 performance.</p>
-<p><img alt="📚" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4da.svg" title=":books:" /> See <a href="../culture/"><strong>Cultural</strong></a> </p>
+<p><img alt="📚" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4da.svg" title=":books:" /> See <a href="../culture/"><strong>Culture</strong></a> </p>
 <p><img alt="📚" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4da.svg" title=":books:" /> See <a href="../product-and-process/"><strong>Product and Process</strong></a></p>
 <p><img alt="📚" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4da.svg" title=":books:" /> See <a href="../lean-management/"><strong>Lean Management</strong></a></p>
 <p><img alt="📚" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4da.svg" title=":books:" /> See <a href="../architecture/"><strong>Architecture</strong></a></p>
 <p><img alt="📚" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4da.svg" title=":books:" /> See <a href="../continuous-delivery/"><strong>Development &amp; CI/CD</strong></a></p>
-<p><img alt="📚" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4da.svg" title=":books:" /> See <a href="../monitoring/"><strong>Monitoring</strong></a></p>
+<p><img alt="📚" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4da.svg" title=":books:" /> See <a href="../monitoring-and-sre/"><strong>Monitoring &amp; SRE</strong></a></p>
 <p><img alt="📚" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4da.svg" title=":books:" /> See <a href="../security/"><strong>Security</strong></a></p>
 </div>
+<h2 id="color-settings">Color Settings<a class="headerlink" href="#color-settings" title="Permanent link"> ¶</a></h2>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.5 11l6.38 5.37-.88.18-.64.12c-.63.13-.99.83-.71 1.4l.27.58 1.36 2.94-1.42.66-1.36-2.93-.26-.58a.985.985 0 00-1.52-.36l-.51.4-.71.57V11m-.74-2.31a.76.76 0 00-.76.76V20.9c0 .42.34.76.76.76.19 0 .35-.06.48-.16l1.91-1.55 1.66 3.62c.13.27.4.43.69.43.11 0 .22 0 .33-.08l2.76-1.28c.38-.18.56-.64.36-1.01L17.28 18l2.41-.45a.88.88 0 00.43-.26c.27-.32.23-.79-.12-1.08l-8.74-7.35-.01.01a.756.756 0 00-.49-.18M15 10V8h5v2h-5m-1.17-5.24l2.83-2.83 1.41 1.41-2.83 2.83-1.41-1.41M10 0h2v5h-2V0M3.93 14.66l2.83-2.83 1.41 1.41-2.83 2.83-1.41-1.41m0-11.32l1.41-1.41 2.83 2.83-1.41 1.41-2.83-2.83M7 10H2V8h5v2"/></svg></span> Click on below presented buttons to change the color
+scheme</p>
+<div class="tx-switch">
+  <button data-md-color-scheme="default"><code>default-theme | day-mode</code></button>
+  <br>
+  <button data-md-color-scheme="slate"><code>dark-theme &nbsp&nbsp | night-mode</code></button>
+</div>
+
+<script>
+  var buttons = document.querySelectorAll("button[data-md-color-scheme]")
+  buttons.forEach(function(button) {
+    button.addEventListener("click", function() {
+      var attr = this.getAttribute("data-md-color-scheme")
+      document.body.setAttribute("data-md-color-scheme", attr)
+      var name = document.querySelector("#__code_0 code span:nth-child(7)")
+      name.textContent = attr
+    })
+  })
+</script>
                 
                   
                 

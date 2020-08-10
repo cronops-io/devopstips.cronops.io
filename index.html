@@ -71,8 +71,10 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="" data-md-color-accent="teal">
   
+    
+      <script>matchMedia("(prefers-color-scheme: dark)").matches&&document.body.setAttribute("data-md-color-scheme","slate")</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -267,7 +269,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="monitoring/" class="md-tabs__link">
+        <a href="monitoring-and-sre/" class="md-tabs__link">
           Monitoring
         </a>
       
@@ -318,12 +320,12 @@
             practices closer to the community.
           </p>
           <p>
-            <b>CronOps DevOps Tips</b> show Product Management, Development, QA, IT Operations, and Information Security
+            <b>CronOps DevOpsTips</b> show Product Management, Development, QA, IT Operations, and Information Security
             best practices and how they all integrate to contribute in both building and scaling high-performance
             technology organizations.
           </p>
           <p>
-            The result of following our tips and shifting to a DevOps mindset and culture
+            The result of following our tips and shifting to a DevOps mindset and culture,
             should be a world-class software delivery performance through optimized collaboration, communication,
             reliability, stability, scalability and security at ever lower cost and effort.
           </p>
@@ -492,6 +494,18 @@
   <li class="md-nav__item">
     <a href="culture/" title="Overview" class="md-nav__link">
       Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="culture/tip-1-generative-culture/" title="Tip 1 | Generative Culture" class="md-nav__link">
+      Tip 1 | Generative Culture
     </a>
   </li>
 
@@ -760,7 +774,7 @@
 
 
   <li class="md-nav__item">
-    <a href="monitoring/" title="Overview" class="md-nav__link">
+    <a href="monitoring-and-sre/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -772,7 +786,7 @@
 
 
   <li class="md-nav__item">
-    <a href="monitoring/read-more/" title="Read More" class="md-nav__link">
+    <a href="monitoring-and-sre/read-more/" title="Read More" class="md-nav__link">
       Read More
     </a>
   </li>

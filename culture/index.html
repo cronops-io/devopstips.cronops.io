@@ -57,8 +57,10 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="" data-md-color-accent="teal">
   
+    
+      <script>matchMedia("(prefers-color-scheme: dark)").matches&&document.body.setAttribute("data-md-color-scheme","slate")</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -245,7 +247,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../monitoring/" class="md-tabs__link">
+        <a href="../monitoring-and-sre/" class="md-tabs__link">
           Monitoring
         </a>
       
@@ -452,10 +454,36 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting Started
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#read-more" class="md-nav__link">
+    Read More
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="tip-1-generative-culture/" title="Tip 1 | Generative Culture" class="md-nav__link">
+      Tip 1 | Generative Culture
+    </a>
   </li>
 
         
@@ -723,7 +751,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../monitoring/" title="Overview" class="md-nav__link">
+    <a href="../monitoring-and-sre/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -735,7 +763,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../monitoring/read-more/" title="Read More" class="md-nav__link">
+    <a href="../monitoring-and-sre/read-more/" title="Read More" class="md-nav__link">
       Read More
     </a>
   </li>
@@ -830,6 +858,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting Started
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#read-more" class="md-nav__link">
+    Read More
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -854,7 +896,47 @@
                 
                 <p><img alt="cronops-logo" src="../assets/images/logos/cronops-isologo-simple.png" style="width:250px" title="CronOps" /></p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link"> ¶</a></h2>
-<p>TODO</p>
+<p>1st and foremost we'll need to understand that <strong>DevOps is a cultural shift</strong>, It’s not a matter of simply adopting agile 
+project planning or automated testing, continuos integration and continuous delivery, although those practices are 
+certainly important and part of the overall DevOps picture. </p>
+<p>DevOps culture is more about a shared understanding between Developers, QA, Product Management, InfoSec and Operations, 
+and sharing responsibility for the software they build and deliver. That means continuously improving and maturing 
+communication, transparency, and collaboration across all IT aforementioned teams and "the business".</p>
+<div class="admonition tip">
+<p class="admonition-title">The Challenge</p>
+<p>Like any big and deep change, building a DevOps culture can be challenging and even scary for some people. 
+We get this point. But we’ve been learning through our own experience (and all the projects we've actively participated)
+that possibly the two main factors (among others that we'll develop in <a href="../welcome/">DevOpsTips</a>) are:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Clarity around both teams and business expectations</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> An environment of psychological safety <img alt="🙏" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f64f.svg" title=":pray:" /></li>
+</ul>
+<p>Without them, teams tend tend to fall in <em><strong>"The Code, Chronic Conflict"</strong></em> <img alt="👇" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f447.svg" title=":point_down:" /></p>
+</div>
+<div class="admonition cite">
+<p class="admonition-title"><em>"The Code, Chronic Conflict"</em>, as detailed in the <a href="(https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/)">DevOps Handbook</a></p>
+<p><em>In almost every IT organization, there is an inherent conflict between Development and IT Operations which creates 
+a downward spiral, resulting in ever-slower time to market for new products and features, reduced quality, increased
+outages, and, worst of all, an ever-increasing amount of technical debt. making mistakes – and, worse, not learn
+from them.</em></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Outcome</p>
+<p>Without considering the factors mentioned above, teams tend repeat these mistakes. And, worse, not learn from them. 
+We hope that following <a href="https://devopstips.cronops.io">CronOps DevOpsTips</a> should make your team’s DevOps journey a 
+lot easier.</p>
+</div>
+<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link"> ¶</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <a href="culture/index.md">DevOpsTips <strong>Culture</strong> Category</a> </li>
+</ul>
+<h2 id="read-more">Read More<a class="headerlink" href="#read-more" title="Permanent link"> ¶</a></h2>
+<div class="admonition info">
+<p class="admonition-title">Complementary Reading</p>
+<ul>
+<li><img alt="📘" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4d8.svg" title=":blue_book:" /> <a href="https://www.atlassian.com/team-playbook/examples/devops-culture">Atlassian | Building a DevOps culture</a></li>
+</ul>
+</div>
                 
               
               
@@ -888,13 +970,13 @@
           </a>
         
         
-          <a href="read-more/" title="Read More" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="tip-1-generative-culture/" title="Tip 1 | Generative Culture" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Read More
+                Tip 1 | Generative Culture
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
