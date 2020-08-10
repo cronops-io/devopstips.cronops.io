@@ -19,7 +19,7 @@ template: overrides/main.html
     Discover our tips classified by DevOps Improvement capabilities categories directly associated to software delivery
     performance.
 
-    :books: See [**Cultural**](culture/index.md) 
+    :books: See [**Culture**](culture/index.md) 
     
     :books: See [**Product and Process**](product-and-process/index.md)
     
@@ -29,7 +29,29 @@ template: overrides/main.html
     
     :books: See [**Development & CI/CD**](continuous-delivery/index.md)
     
-    :books: See [**Monitoring**](monitoring/index.md)
+    :books: See [**Monitoring & SRE**](monitoring-and-sre/index.md)
     
     :books: See [**Security**](security/index.md)
 
+## Color Settings
+
+:material-cursor-default-click-outline: Click on below presented buttons to change the color
+scheme
+
+<div class="tx-switch">
+  <button data-md-color-scheme="default"><code>default-theme | day-mode</code></button>
+  <br>
+  <button data-md-color-scheme="slate"><code>dark-theme &nbsp&nbsp | night-mode</code></button>
+</div>
+
+<script>
+  var buttons = document.querySelectorAll("button[data-md-color-scheme]")
+  buttons.forEach(function(button) {
+    button.addEventListener("click", function() {
+      var attr = this.getAttribute("data-md-color-scheme")
+      document.body.setAttribute("data-md-color-scheme", attr)
+      var name = document.querySelector("#__code_0 code span:nth-child(7)")
+      name.textContent = attr
+    })
+  })
+</script>

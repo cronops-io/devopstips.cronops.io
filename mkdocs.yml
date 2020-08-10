@@ -1,4 +1,5 @@
 # ref link: https://alinex.gitlab.io/env/mkdocs/
+# ref link: https://squidfunk.github.io/mkdocs-material/
 #===================================================================================#
 # Site Information
 #===================================================================================#
@@ -44,6 +45,9 @@ theme:
     - tabs
     - instant
   palette:
+#    scheme: default
+#    scheme: stale
+    scheme: preference
 #    primary: "black" # currently setuped from /docs/assets/stylesheets
     accent: "teal"
   include_sidebar: true
@@ -85,7 +89,7 @@ plugins:
 extra_css:
     - assets/stylesheets/extra.css
 
-# Google Analytics (https://squidfunk.github.io/mkdocs-material/getting-started/#google-analytics)
+# Google Analytics (https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/)
 #
 google_analytics:
   - 'UA-174680750-2'
@@ -103,6 +107,7 @@ nav:
 
   - Culture:
     - Overview: "culture/index.md"
+    - Tip 1 | Generative Culture: "culture/tip-1-generative-culture.md"
     - Read More: "culture/read-more.md"
 
   - Product and Process:
@@ -122,8 +127,8 @@ nav:
     - Read More: "continuous-delivery/read-more.md"
 
   - Monitoring:
-    - Overview: "monitoring/index.md"
-    - Read More: "monitoring/read-more.md"
+    - Overview: "monitoring-and-sre/index.md"
+    - Read More: "monitoring-and-sre/read-more.md"
 
   - Security:
     - Overview: "security/index.md"
