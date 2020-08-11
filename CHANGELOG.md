@@ -7,6 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.6"></a>
+## [v0.0.6] - 2020-08-11
+
+- Merge branch 'master' of github.com:cronops-io/devopstips.cronops.io
+- CRONOPS-16 | updating section to Monitoring & SRE + Updating glossary
+
+
 <a name="v0.0.5"></a>
 ## [v0.0.5] - 2020-08-11
 
@@ -50,7 +57,8 @@ All notable changes to this project will be documented in this file.
 - CRONOPS-8 | initial devopstips.cronops.io release
 
 
-[Unreleased]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.5...HEAD
+[Unreleased]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.6...HEAD
+[v0.0.6]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.5...v0.0.6
 [v0.0.5]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.4...v0.0.5
 [v0.0.4]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.3...v0.0.4
 [v0.0.3]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.2...v0.0.3
