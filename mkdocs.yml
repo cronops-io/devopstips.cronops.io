@@ -103,7 +103,7 @@ nav:
   - Development & CI/CD:
     - Overview: "continuous-delivery/index.md"
 
-  - Monitoring:
+  - Monitoring & SRE:
     - Overview: "monitoring-and-sre/index.md"
 
   - Security:
