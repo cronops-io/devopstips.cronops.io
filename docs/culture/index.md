@@ -18,9 +18,9 @@ communication, transparency, and collaboration across all IT aforementioned team
     * [x] Clarity around both teams and business expectations
     * [x] An environment of psychological safety :pray:
 
-    Without them, teams tend tend to fall in _**"The Code, Chronic Conflict"**_ :point_down:
+    Without them, teams tend tend to fall in _**"The Core, Chronic Conflict"**_ :point_down:
 
-!!! cite "_"The Code, Chronic Conflict"_, as detailed in the [DevOps Handbook]((https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/))"
+!!! cite "_"The Core, Chronic Conflict"_, as detailed in the [DevOps Handbook]((https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/))"
     _In almost every IT organization, there is an inherent conflict between Development and IT Operations which creates 
     a downward spiral, resulting in ever-slower time to market for new products and features, reduced quality, increased
     outages, and, worst of all, an ever-increasing amount of technical debt. making mistakes – and, worse, not learn
