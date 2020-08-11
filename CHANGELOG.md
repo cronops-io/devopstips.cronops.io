@@ -7,6 +7,15 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.4"></a>
+## [v0.0.4] - 2020-08-11
+
+- CRONOPS-16 | Adding glossary + updating culture section
+- CRONOOP-16 | Improving dark dark-mode implementation
+- Merge branch 'master' of github.com:cronops-io/devopstips.cronops.io
+- CRONOPS-16 | removing read more since it's included in each tip sub-section
+
+
 <a name="v0.0.3"></a>
 ## [v0.0.3] - 2020-08-10
 
@@ -33,6 +42,7 @@ All notable changes to this project will be documented in this file.
 - CRONOPS-8 | initial devopstips.cronops.io release
 
 
-[Unreleased]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.3...HEAD
+[Unreleased]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.4...HEAD
+[v0.0.4]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.3...v0.0.4
 [v0.0.3]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.2...v0.0.3
 [v0.0.2]: https://github.com/cronops-io/devopstips.cronops.io/compare/v0.0.1...v0.0.2
