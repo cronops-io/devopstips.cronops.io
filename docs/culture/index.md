@@ -38,5 +38,8 @@ communication, transparency, and collaboration across all IT aforementioned team
 
 ## Read More
 
-!!! info "Complementary Reading"
-    * :blue_book: [Atlassian | Building a DevOps culture](https://www.atlassian.com/team-playbook/examples/devops-culture)
+!!! info "Recommended reading"
+    * :books: [Atlassian | Building a DevOps culture](https://www.atlassian.com/team-playbook/examples/devops-culture)
+    * :books: [DORA's State of DevOps research program](https://www.devops-research.com/research.html)
+    * :books: [Google State of DevOps Report 2019](https://services.google.com/fh/files/misc/state-of-devops-2019.pdf)
+    * :bar_chart: [DORA DevOps Quick Check](https://www.devops-research.com/quickcheck.html)
