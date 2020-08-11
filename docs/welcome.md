@@ -7,7 +7,7 @@ template: overrides/main.html
 # Welcome
 
 !!! abstract "Overview"
-    **CronOps DevOps Tips** show Product Management, Development, QA, IT Operations, and Information Security
+    **CronOps DevOpsTips** show Product Management, Development, QA, IT Operations, and Information Security
     best practices and how they all integrate to contribute in both building and scaling high-performance
     technology organizations. The result of following our tips and shifting to a DevOps mindset and culture
     should be a world-class software delivery performance through optimized collaboration, communication,
@@ -33,8 +33,17 @@ template: overrides/main.html
     
     :books: See [**Security**](security/index.md)
 
-## Color Settings
 
+---
+### :art: Color Settings
+
+The color scheme will be set based on user preference, which makes use of the `prefers-color-scheme` media query. 
+
+!!! info "How to setup Dark mode | Dark theme"
+    * [x] [Google Chrome | Browse in Dark mode or Dark theme](https://support.google.com/chrome/answer/9275525)
+    * [x] [How to enable dark mode on your phone, laptop, and more](https://www.theverge.com/2019/3/22/18270975/how-to-dark-mode-iphone-android-mac-windows-xbox-ps4-nintendo-switch)
+
+#### :art: Try it yourself
 :material-cursor-default-click-outline: Click on below presented buttons to change the color
 scheme
 
