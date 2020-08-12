@@ -9,13 +9,22 @@
 	}
 }
 
+/*
+https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+*/
 :root {
   --md-primary-fg-color:        #172a45;
   --md-primary-fg-color--light: #60f6d3;
   --md-primary-fg-color--dark:  #0a192f;
 }
 
-/*markdown and image alignment
+:root>* {
+    --md-typeset-color:         var(--md-default-fg-color);
+    --md-typeset-a-color:       #009688;
+}
+
+/*
+markdown and image alignment
 ALT tag and a CSS selector on the alt tag
 */
 img[src*='#left'] {
