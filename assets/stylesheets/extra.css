@@ -19,9 +19,8 @@ https://material.io/design/color/the-color-system.html#tools-for-picking-colors
 }
 
 :root>* {
-    --md-typeset-color:          var(--md-default-fg-color);
-    --md-typeset-a-color--dark:  #009688;
-    --md-typeset-a-color--light: #60f6d3;
+    --md-typeset-color:   var(--md-default-fg-color);
+    --md-typeset-a-color: #009688;
 }
 
 /*
