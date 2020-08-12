@@ -31,7 +31,7 @@ theme:
   palette:
     scheme: preference
     #primary: "black" # currently setuped from /docs/assets/stylesheets
-    accent: "teal"
+    accent: "deep purple"
   include_sidebar: true
 
 extra:
