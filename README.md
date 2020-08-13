@@ -12,7 +12,7 @@ This repository contains all files used to create [CronOps DevOpsTips](https://d
 - `master`   --> contains the source code
 - `gh-pages` --> deployable (builded) version
 
-## Deployed Documentation
+## Deployed Site
 Check it out [here](https://devopstips.cronops.io/).
 
 ## Development / Contributing
@@ -23,16 +23,15 @@ Check it out [here](https://devopstips.cronops.io/).
 ```bash
  make docs-live          
 ```
-4. Update necessary `*.md` files inside the `docs/` folder and check your updates through the browser
-```bash
-make docs-deploy-gh
-``` 
-5. And create your PR from `BBL-XXX` to `master` branch.
+4. Update necessary `*.md` files inside the `docs/` folder and check your updates through the local environment
+browser 
+5. And create your PR from `CRONOPS-XXX` to `master` branch.
 6. The Github Pages site [https://devopstips.cronops.io](https://devopstips.cronops.io/) will be automatically deployed 
 via CircleCI job to the `gh-pages` branch (currently being built from this branch).
+    - It currently uses the `make docs-deploy-gh` cmd which could be locally executed if needed too.
 
 ### TODO
 1. Several sections needs completion or update. 
-2. Add figures caption cross doc.
+2. Add figures caption and its sources cross doc.
 
 
