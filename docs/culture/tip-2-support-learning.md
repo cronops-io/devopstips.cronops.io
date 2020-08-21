@@ -26,7 +26,7 @@
 
 ### Examples & use cases
 
-!!! tip "Practices to create a generative culture" 
+!!! tip "Ways to improve your learning culture" 
     You can help your organization create a climate for learning by viewing learning as the key to improvement and as an
     investment. Some steps you can take to directly support learning include:
 
