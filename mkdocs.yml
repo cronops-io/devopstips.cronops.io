@@ -18,7 +18,7 @@ theme:
   name: material
   custom_dir: material
   language: en
-  icon: # https://iconify.design/icon-sets/mdi/
+  icon: # https://www.materialpalette.com/icons
     logo: material/package-variant
 
   favicon: assets/images/favicons/favicon.ico
@@ -28,7 +28,7 @@ theme:
   features:
     - tabs
     - instant
-  palette:
+  palette: # https://www.materialpalette.com/colors
     scheme: preference
     #primary: "black" # currently setuped from /docs/assets/stylesheets
     accent: "deep purple"
@@ -90,6 +90,7 @@ nav:
   - Culture:
     - Overview: "culture/index.md"
     - Tip 1 | Generative Culture: "culture/tip-1-generative-culture.md"
+    - Tip 2 | Continuous Learning: "culture/tip-2-support-learning.md"
 
   - Product and Process:
     - Overview: "product-and-process/index.md"
