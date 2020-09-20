@@ -56,15 +56,15 @@
     your employees from habitual pathways and repetitive tasks, they can generate enormous value for your organization.
     And remember that novelty isn't limited to new products and features. Also encourage and reward improvements in
     process and ideas that help foster collaboration._
-    
+
+    ---
+    :ledger: Source | :earth_americas: [Google Cloud **DevOps culture** | Westrum organizational culture](https://cloud.google.com/solutions/devops/devops-culture-westrum-organizational-culture)
+
     ---
     **Extra Points!**
     
     :information_source: [How to measure organizational culture?](https://cloud.google.com/solutions/devops/devops-culture-westrum-organizational-culture#how_to_measure_organizational_culture)
     
-    ---
-    :ledger: Source | :earth_americas: [Google Cloud **DevOps culture** | Westrum organizational culture](https://cloud.google.com/solutions/devops/devops-culture-westrum-organizational-culture)
-
 ## Read More
 
 !!! info "Recommended reading"

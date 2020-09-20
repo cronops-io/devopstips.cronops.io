@@ -1,28 +1,26 @@
 # DevOps Culture 
 
-## Tip 2 | Encourage and support learning 
+## Tip 3 | Support and facilitate collaboration among teams.  
 
 !!! cite "From :books: [Accelerate Book (Appendix A: Capabilities to Drive Improvement)](https://www.oreilly.com/library/view/accelerate/9781457191435/32-app_A.xhtml)"
-    _Is learning, in your culture, considered essential for continued progress? 
-    Is learning thought of as a cost or an investment? This is a measure of an organization’s learning culture._
+    _This reflects how well teams, which have traditionally been siloed, interact in development, operations, 
+    and information security. See Chapters 3 and 5._
     
-!!! cite "From :earth_americas: [Google Cloud **DevOps culture** | Learning culture](https://cloud.google.com/solutions/devops/devops-culture-westrum-organizational-culture)"
-    _Research from the DevOps Research and Assessment (DORA) (PDF) team shows that an organizational culture that values
-     learning contributes to software delivery performance with the following:_
-
-    - _Increased deployment frequency_
-    - _Reduced lead time for changes, time to restore service, and change failure rate_
-    - _Strong team culture_
+!!! cite "From :octicons-mark-github-16: :books: [Github O'Reilly Collaborating in DevOps Culture 2019](https://resources.github.com/downloads/CollaboratingDevOpsCulture.pdf)"
+    _**Collaboration in the Context of Practicing Devops**_
     
-    _The climate for learning in your organization is directly related to the extent to which your organization treats 
-    learning as strategic:_
-
-    - _Does your organization view learning as an investment necessary for growth?_
-    - _Is learning seen as a necessary burden, undertaken only grudgingly?_
-    - _Is learning completely avoided?_
+    _Collaboration is the practice of multiple individuals working together, building toward a specific outcome. 
+    Effective collaboration within the enterprise isn’t like a school project gone awry in which one person dominates 
+    everyone else’s efforts, ignoring other people’s inputs and opinions in pursuit of their own good grade. It also
+    isn’t about some people picking up the slack for others who have checked out. Instead, it’s about people coming 
+    together from different perspectives, and everyone providing input so that you can come to a shared understanding 
+    with a collective team perspective. **Collaboration is about building trust, empathy, and team psychological safety
+    in an environment that often requires you to work with many people for short periods of time to get work done**._
     
-    _Research done in other areas, such as accounting, has also shown that a climate for learning is predictive of
-    performance gains._ 
+    _Software **development** and **operations** teams working together is a core part of the **devops** movement. 
+    Before one team can successfully work with another team that has a different focus, the individuals on both teams 
+    need to be able to work with each other. Teams that don’t work well on an individual or intrateam level have little 
+    hope of working well at the interteam level._ 
 
 ### Examples & use cases
 
@@ -51,9 +49,8 @@
     - [x] **Encourage people to get certifications or external trainings.** You can help with this by covering costs of
     external trainings and forming study groups that are a part of normal work activity.
     
-    ---
+     ---
     :ledger: Source | :earth_americas: [Google Cloud **DevOps culture** | How to implement a learning culture](https://cloud.google.com/solutions/devops/devops-culture-learning-culture#how_to_implement_a_learning_culture)
-
     
     ---
     **Extra Points!**
@@ -65,5 +62,4 @@
 !!! info "Recommended reading"
     * :books: [Accelerate Book (Appendix A: Capabilities to Drive Improvement)](https://www.oreilly.com/library/view/accelerate/9781457191435/32-app_A.xhtml)
     * :books: [DORA's State of DevOps research program](https://www.devops-research.com/research.html)
-    * :books: [Google State of DevOps Report 2019](https://services.google.com/fh/files/misc/state-of-devops-2019.pdf)
-    * :bar_chart: [DORA DevOps Quick Check](https://www.devops-research.com/quickcheck.html)
+    * :books: [Github O'Reilly Collaborating in DevOps Culture 2019](https://resources.github.com/downloads/CollaboratingDevOpsCulture.pdf)
